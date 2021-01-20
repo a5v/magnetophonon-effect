@@ -12,3 +12,14 @@ Required packages are numpy, pandas, matplotlib.pyplot and statsmodels.api
 - *K refers to the temperature used in K.
 
 Data was collected by Professor Robin Nicholas
+
+
+## Creating environment using conda
+
+conda create --name magnetophonon-effect
+
+conda activate magnetophonon-effect
+
+conda install pip
+
+pip install -r requirements.txt
